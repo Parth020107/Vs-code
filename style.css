@@ -1,0 +1,123 @@
+CSS
+
+
+*{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #202124; */
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+i{
+    color: #646262;
+}
+.div1{
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    gap: 15px;
+    align-items: center;
+    height: 20%;
+}
+.div1 a button{
+    background-color: #1a73e8;
+    color: white;
+    width: 95px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.div1 a button:hover{
+    background-color: #1d5eb3;
+}
+.div2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.div3 .search_bar{
+    height: 46px;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    border-radius: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.42);
+}
+.mic_cam{
+    display: flex;
+    gap: 13px;
+}
+.mic_cam a i{
+    font-size: 16px;
+}
+.div3 .btns{
+    /* background-color: green; */
+    height: 50px;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.div3 .btns button{
+    background-color: rgba(128, 128, 128, 0.095);
+    width: 120px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.div4{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.div4 a{
+    color: blue;
+    gap: 50px;
+}
+.div4 p {
+    padding-top: 40px;
+    gap: 5px;
+    display: flex;
+}
+.div5{
+    background-color: #F2F2F2;
+    height: 90px;
+    padding: 0 20px;
+}
+.last1{
+    height: 40%;
+    font-size: 18px;
+    padding: 10px 0 0 0;
+}
+.last2{
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.last2 span{
+    display: flex;
+    gap: 20px;
+}
